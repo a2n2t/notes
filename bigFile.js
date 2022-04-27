@@ -44,6 +44,7 @@ export default function App() {
                     placeholder="Email address"
                     className="form--input"
                     onChange={handleChange}
+                    value={formData.email}
                 />
                 <input 
                     type="password" 
@@ -51,6 +52,7 @@ export default function App() {
                     placeholder="Password"
                     className="form--input"
                     onChange={handleChange}
+                    value={formData.password}
                 />
                 <input 
                     type="password"
@@ -58,6 +60,7 @@ export default function App() {
                     placeholder="Confirm password"
                     className="form--input"
                     onChange={handleChange}
+                    value={formData.confirmationPassword}
                 />       
                 <div className="form--marketing">
                     <input
